@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+body{
+    background-color: #94D4E5;
+}
+.set-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*จัดให้ div set-box ลอยอิ*/
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+.Box-1{
+    /* border: #000000 solid 1px; */
+    background-color: #5C9EAF;
+    width:90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-1{
+    width: 95%;
+
+    /* border: #000000 solid 5px; */
+    /* margin-top: 80px; */
+    /* margin-bottom: 80px; */
+   /* border: #000000 solid 1px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+   
+}
+.item-content-1{
+    display: grid;
+    grid-template-columns: auto 500px;
+    /* border: #000000 solid 5px; */
+    width: 100%;
+    /* align-items: center; จัดข้อความให้อยู่ตรงกลางตรงกลางกับภาพ */
+    /* border: #823939 solid 3px; */
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
+    /* margin-left: 20px; */
+}
+.text-1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    /* border: #190a90 solid 8px; */
+    padding-top: 100px; /* เพิ่มบรรทัดนี้ */
+    padding-bottom: 100px; /* เพิ่มบรรทัดนี้ */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.text-2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    text-align: center;
+    /* border: #900a6a solid 3px; */
+    padding-top: 10px; /* เพิ่มบรรทัดนี้ */
+    padding-bottom: 10px; /* เพิ่มบรรทัดนี้ */
+    color: #ffffff;
+}
+.button {
+    font-size: 24px; /* ปรับขนาดตามที่คุณต้องการ */
+    padding: 10px 20px; /* ปรับขนาดขอบปุ่ม */
+}
+
+
+.text-3 button {
+    font-size: 24px; /* ปรับขนาดตามที่คุณต้องการ */
+    padding: 10px 20px; /* ปรับขนาดขอบปุ่ม */
+    background-color: #ff8c00;
+    color: #ffffff; /* สีตัวอักษรที่ต้องการเปลี่ยน (เช่น สีแดง) */
+    border: none; /* ลบเส้นขอบ */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+    /* font-family: "Audiowide", sans-serif; */
+    
+    
+}
+.image{
+    margin: auto;
+}
+.text-3 button:hover {
+    background-color: #ffa01b; /* สีพื้นหลังเมื่อนำเม้าส์ไปชี้ */
+}
